@@ -1,0 +1,7 @@
+airflow tasks test forex-currency-pipeline check_forex_api_avail 2021-01-01
+airflow tasks test forex-currency-pipeline check_forex_currency_file_avail 2021-01-01
+airflow tasks test forex-currency-pipeline download_forex_curr_data 2021-01-01
+airflow tasks test forex-currency-pipeline save_currency_rates 2021-01-01
+airflow tasks test forex-currency-pipeline creating_forex_rates_table 2021-01-01
+airflow tasks test forex-currency-pipeline spark_load_hive_table 2021-01-01
+airflow tasks test forex-currency-pipeline send_email_notification 2021-01-01
